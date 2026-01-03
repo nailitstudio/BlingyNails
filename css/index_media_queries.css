@@ -1,0 +1,900 @@
+
+@media only screen and (max-width: 368px){
+    .nav .navOpenBtn,
+    .nav .navCloseBtn {
+        display: block;
+    }
+
+    .nav {
+        padding: 15px 20px;
+    }
+
+    .nav .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        max-width: 280px;
+        width: 100%;
+        padding-top: 100px;
+        row-gap: 30px;
+        flex-direction: column;
+        background-color: #2C2C2C;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s ease;
+        z-index: 100;
+    }
+
+
+    .nav.openNav .nav-links {
+        left: 0;
+    }
+
+    .nav .navOpenBtn {
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav .navCloseBtn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+
+    /* Main section of Main Page  */
+
+    
+    .container{
+        margin-top: 10%;
+    }
+
+    .section1{
+        /* height: 100vh; */
+        padding: 0px 5%;
+    }
+
+
+    .video-background {
+        display: none;
+    }
+    
+    .section1 {
+        background: linear-gradient(rgba(212, 175, 118, 0.7), rgba(212, 175, 118, 0.3)), 
+                    url('../images/2.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+
+    .fields{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+
+    
+    .processing-buttons{
+        margin: 3% 4%; 
+    }
+
+
+    .processing-buttons a {
+        display: inline-block;
+        width: 200px; /* Fixed Height and Width */
+        height: 50px; 
+        text-align: center; 
+    }
+
+
+    /* Cards of All Categories */
+
+
+    .cardHeadings{
+        padding: 5%;
+    }
+
+    .bordercards{
+        width: 10%; 
+        border-top: 2px solid #D4AF76;
+        margin: 20px 0; 
+    }
+
+
+
+    .cardImage{
+        height: 25vh;
+        width: 100vw;
+        
+    }
+
+    /* second column of card */
+
+    .second-column-card{
+        margin-top: 8%;
+    }
+
+
+
+    /* Third column of card */
+
+
+    .third-column-card{
+        height: 20vh;
+        margin-left: 5%;
+    }
+
+
+    .custom-text {
+        bottom: -4px;
+    }
+    
+    
+    .custom-heading {
+        bottom: 2px;
+    }
+
+
+    /* Parallax Effect (Instant Glam, Every Day) */
+
+    
+    .parallax{
+        padding: 10%;
+    }
+
+
+
+
+    /* What our Customers say about us */
+
+
+    .cardHeadingsCustomers h5 {
+        font-size: 0.95rem;
+    }
+
+    .testimonial-section {
+        padding: 50px 10px;
+    }
+
+    .testimonial-card {
+        flex: 0 0 calc(100% - 20px);
+        padding: 35px 25px;
+    }
+
+    .testimonial-nav {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .testimonial-nav.prev {
+        left: 5px;
+    }
+
+    .testimonial-nav.next {
+        right: 5px;
+    }
+
+    .user-image-circle {
+        width: 55px;
+        height: 55px;
+    }
+
+    .testimonial-text {
+        font-size: 1rem;
+    }
+
+    .quote-icon {
+        font-size: 40px;
+    }
+
+    .rating {
+        font-size: 18px;
+    }
+
+
+
+    /* Our Work */
+
+    .carousel-wrapper {
+        padding: 20px 0;
+    }
+    
+    .carousel-container {
+        padding: 0 30px;
+    }
+    
+    .work-sample-item {
+        flex: 0 0 100%;
+        min-height: 100px;
+        padding: 15px;
+    }
+    
+    
+    .work-sample {
+        gap: 20px;
+    }
+    
+    .work-sample-carousel {
+        padding: 25px 10px;
+    }
+    
+    .carousel-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+    
+    .carousel-btn.prev {
+        left: -5px;
+    }
+    
+    .carousel-btn.next {
+        right: -5px;
+    }
+    
+    .cardHeadings h2 {
+        font-size: 1.8rem;
+    }
+    
+    .bordercards {
+        margin-bottom: 30px;
+    }
+    
+    .carousel-dots {
+        gap: 8px;
+        margin-top: 20px;
+    }
+    
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .dot.active {
+        width: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width: 368px) and (max-width: 768px){
+    .nav .navOpenBtn,
+    .nav .navCloseBtn {
+        display: block;
+    }
+
+    .nav {
+        padding: 15px 20px;
+    }
+
+    .nav .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        max-width: 280px;
+        width: 100%;
+        padding-top: 100px;
+        row-gap: 30px;
+        flex-direction: column;
+        background-color: #2C2C2C;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s ease;
+        z-index: 100;
+    }
+
+
+    .nav.openNav .nav-links {
+        left: 0;
+    }
+
+    .nav .navOpenBtn {
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav .navCloseBtn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+
+    /* Main section of Main Page  */
+
+    
+    .container{
+        margin-top: 10%;
+    }
+
+    .section1{
+        /* height: 70vh; */
+        padding: 0px 5%;
+    }
+
+    .video-background {
+        display: none;
+    }
+    
+    .section1 {
+        background: linear-gradient(rgba(212, 175, 118, 0.7), rgba(212, 175, 118, 0.3)), 
+                    url('../images/2.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+
+    .fields{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+
+    
+    .processing-buttons{
+        margin: 3% 4%; 
+    }
+
+
+    .processing-buttons a {
+        display: flex;
+        align-items: center;      
+        justify-content: center;
+        width: 200px; /* Fixed Height and Width */
+        height: 50px; 
+        text-align: center; 
+    }
+
+
+    /* Cards of All Categories */
+
+
+    .cardHeadings{
+        padding: 5%;
+    }
+
+    .bordercards{
+        width: 10%; 
+        border-top: 2px solid #D4AF76;
+        margin: 20px 0; 
+    }
+
+
+
+    .cardImage{
+        height: 25vh;
+        width: 100vw;
+    
+    }
+
+    /* second column of card */
+
+    .second-column-card{
+        margin-top: 8%;
+    }
+
+
+
+    /* Third column of card */
+
+
+    .third-column-card{
+        height: 22vh;
+        margin-left: 5%;
+    }
+
+
+
+    /* Parallax Effect (Instant Glam, Every Day) */
+
+
+    .parallax{
+        padding: 10%;
+    }
+
+
+
+    /* What our Customers say about us */
+
+
+    .testimonial-section {
+        padding: 60px 15px;
+    }
+
+    .testimonial-card {
+        flex: 0 0 calc(100% - 20px);
+        padding: 40px 30px;
+    }
+
+    .testimonial-nav {
+        width: 55px;
+        height: 55px;
+        font-size: 26px;
+    }
+
+    .testimonial-nav.prev {
+        left: 10px;
+    }
+
+    .testimonial-nav.next {
+        right: 10px;
+    }
+
+    .quote-icon {
+        font-size: 50px;
+    }
+
+
+    /* Our Work */
+    
+    .carousel-wrapper {
+        padding: 30px 0;
+    }
+    
+    .carousel-container {
+        padding: 0 40px;
+    }
+    
+    .work-sample-item {
+        flex: 0 0 calc(50% - 12.5px);
+        min-height: 110px;
+        padding: 18px;
+    }
+    
+    
+    .work-sample {
+        gap: 25px;
+    }
+    
+    .work-sample-carousel {
+        padding: 30px 15px;
+    }
+    
+    .carousel-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .carousel-btn.prev {
+        left: -5px;
+    }
+    
+    .carousel-btn.next {
+        right: -5px;
+    }
+    
+    .cardHeadings h2 {
+        font-size: 2rem;
+    }
+    
+    .bordercards {
+        margin-bottom: 35px;
+    }
+    
+    .carousel-dots {
+        gap: 10px;
+        margin-top: 25px;
+    }
+    
+    
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 910px){
+    .nav .navOpenBtn,
+    .nav .navCloseBtn {
+        display: block;
+    }
+
+    .nav {
+        padding: 15px 20px;
+    }
+
+    .nav .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        max-width: 280px;
+        width: 100%;
+        padding-top: 100px;
+        row-gap: 30px;
+        flex-direction: column;
+        background-color: #2C2C2C;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s ease;
+        z-index: 100;
+    }
+
+
+    .nav.openNav .nav-links {
+        left: 0;
+    }
+
+    .nav .navOpenBtn {
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav .navCloseBtn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+
+    /* Main section of Main Page  */
+
+    
+    .container{
+        margin-top: 10%;
+    }
+
+    .section1{
+        height: 70vh;
+        padding: 0px 5%;
+    }
+
+
+
+    .fields{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+
+    
+    .processing-buttons{
+        margin: 3% 4%; 
+    }
+
+
+    .processing-buttons a {
+        display: flex;
+        align-items: center;      
+        justify-content: center;
+        width: 200px; /* Fixed Height and Width */
+        height: 50px; 
+        text-align: center; 
+    }
+
+
+    /* Cards of All Categories */
+
+    .bordercards{
+        width: 10%; 
+        border-top: 2px solid #D4AF76;
+        margin: 20px 0; 
+    }
+
+
+
+    .cardImage{
+        height: 35vh;
+        width: 100vw;
+    
+    }
+
+    /* second column of card */
+
+    .second-column-card{
+        margin-top: 8%;
+        width: 40vw;
+    }
+
+
+    .data-accuracy{
+        display: block;
+    }
+
+
+
+    /* Third column of card */
+
+
+    .third-column-card{
+        width: 40vw;
+        margin-left: 50%;
+        margin-top: 9%;
+    }
+
+
+    .custom-text {
+        bottom: 7px;
+    }
+    
+    .custom-heading {
+        bottom: 15px;
+    }
+
+
+    
+    /* Parallax Effect (Instant Glam, Every Day) */
+
+    .parallax{
+        padding: 10%;
+    }
+
+
+    /* What our Customers say about us */
+
+
+    .testimonial-section {
+        padding: 70px 20px;
+    }
+
+    .testimonial-card {
+        flex: 0 0 calc(50% - 20px); /* 2 cards side by side */
+        padding: 45px 35px;
+    }
+
+    .testimonial-nav {
+        width: 60px;
+        height: 60px;
+    }
+
+    .testimonial-nav.prev {
+        left: 15px;
+    }
+
+    .testimonial-nav.next {
+        right: 15px;
+    }
+
+    /* Our Work */
+
+    .carousel-container {
+        padding: 0 50px;
+    }
+    
+    .work-sample-item {
+        flex: 0 0 calc(33.333% - 20px);
+        min-height: 115px;
+    }
+    
+    .work-sample {
+        gap: 30px;
+    }
+    
+    .work-sample-carousel {
+        padding: 35px 18px;
+    }
+    
+    .carousel-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+    }
+    
+    .carousel-btn.prev {
+        left: 0;
+    }
+    
+    .carousel-btn.next {
+        right: 0;
+    }
+    
+    .cardHeadings h2 {
+        font-size: 2.2rem;
+    }
+
+    
+
+    
+}
+
+
+@media only screen and (min-width: 910px) and (max-width: 1050px){
+    .nav {
+        padding: 15px 50px;
+    }
+
+
+
+    /* Main section of Main Page  */
+
+    .container{
+        margin-top: 10%;
+    }
+
+    .section1{
+        height: 70vh;
+        padding: 0px 5%;
+    }
+
+    .fields{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+
+
+   .processing-buttons a {
+        width: 60%;
+        text-align: center;
+    }
+
+
+    /* Cards of All Categories */
+
+    .bordercards{
+        width: 10%; 
+        border-top: 2px solid #D4AF76;
+        margin: 20px 0; 
+    }
+
+
+
+    .cardImage{
+        height: 35vh;
+        width: 100vw;
+    
+    }
+
+    /* second column of card */
+
+    .second-column-card{
+        margin-top: 8%;
+        width: 40vw;
+    }
+
+
+    .data-accuracy{
+        display: block;
+    }
+
+
+
+    /* Third column of card */
+
+    .third-column-card{
+        width: 40vw;
+        margin-left: 50%;
+        margin-top: 9%;
+    }
+
+
+
+    .custom-text {
+        bottom: 7px;
+    }
+   
+    
+    .custom-heading {
+        bottom: 15px;
+    }
+
+
+    
+    /* Parallax Effect (Instant Glam, Every Day) */
+    
+
+    .parallax{
+        padding: 10%;
+    }
+
+
+    /* What our Customers say about us */
+
+    .testimonial-section {
+        padding: 70px 20px;
+    }
+
+    .testimonial-card {
+        flex: 0 0 calc(50% - 20px); /* 2 cards side by side */
+        padding: 45px 35px;
+    }
+
+    .testimonial-nav {
+        width: 60px;
+        height: 60px;
+    }
+
+    .testimonial-nav.prev {
+        left: 15px;
+    }
+
+    .testimonial-nav.next {
+        right: 15px;
+    }
+
+    
+    /* Our Work */
+
+    .carousel-container {
+        padding: 0 55px;
+    }
+    
+    .work-sample-item {
+        flex: 0 0 calc(33.333% - 24px);
+    }
+    
+    .work-sample {
+        gap: 35px;
+    }
+    
+    .carousel-btn {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .cardHeadings h2 {
+        font-size: 2.3rem;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 1050px) and (max-width: 1200px){
+    .nav {
+        padding: 15px 100px;
+    }
+
+
+    /* Cards of All Categories */
+
+    /* Third column of card */
+
+      
+    .custom-text {
+        bottom: 17px;
+    }
+
+    .content-wrapper {
+        max-width: 1100px;
+    }
+
+    .carousel-container {
+        max-width: 950px;
+    }
+
+    /* What our Customers say about us */
+
+    .testimonial-carousel-container {
+        max-width: 1400px;
+    }
+
+    .testimonial-nav.prev {
+        left: -35px;
+    }
+
+    .testimonial-nav.next {
+        right: -35px;
+    }
+
+
+    /* Our work */
+
+    .carousel-container {
+        padding: 0 60px;
+    }
+    
+    .work-sample-item {
+        flex: 0 0 calc(25% - 30px);
+    }
+}
+
